@@ -1,0 +1,90 @@
+[
+    {
+        "name": "tombzombie/cds",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TomBZombie/CDS.git",
+            "reference": "5ebea46bbd09b00853cbf18b25b648cab86f31eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TomBZombie/CDS/zipball/5ebea46bbd09b00853cbf18b25b648cab86f31eb",
+            "reference": "5ebea46bbd09b00853cbf18b25b648cab86f31eb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-08-28 10:19:04",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Tom Butler",
+                "email": "tom@r.je"
+            }
+        ],
+        "description": "A new approach at templating",
+        "homepage": "https://github.com/TomBZombie/CDS",
+        "keywords": [
+            "template system"
+        ]
+    },
+    {
+        "name": "tombzombie/maphper",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TomBZombie/Maphper.git",
+            "reference": "f66ec10913d855ff3a6c9cc100a0a534901c5287"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TomBZombie/Maphper/zipball/f66ec10913d855ff3a6c9cc100a0a534901c5287",
+            "reference": "f66ec10913d855ff3a6c9cc100a0a534901c5287",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-08-10 10:23:18",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "maphper/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Tom Butler",
+                "email": "tom@r.je"
+            }
+        ],
+        "description": "A lightweight ORM using the DataMapper pattern, creates database tables on the fly.",
+        "homepage": "https://github.com/TomBZombie/Maphper",
+        "keywords": [
+            "Object relational mapper",
+            "data mapper",
+            "dba",
+            "model",
+            "orm"
+        ]
+    }
+]

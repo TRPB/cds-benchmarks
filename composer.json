@@ -1,0 +1,16 @@
+{
+    "name": "tombzombie/cds-benchmark",
+    "license": "BSD-2-Clause",
+     "authors": [
+        {
+            "name": "Tom Butler",
+            "email": "tom@r.je"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": ">=5.4.0",
+        "tombzombie/cds": "*",
+        "tombzombie/maphper": "*"
+    }
+}

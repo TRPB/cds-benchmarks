@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<template>
+	<ul>
+		<li>
+			<h2>Topic title</h2>
+			<span>Topic author</span>
+		</li>
+	</ul>
+</template>

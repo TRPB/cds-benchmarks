@@ -1,0 +1,1 @@
+[{"query":"\/\/li","pseudo":"","rules":{"repeat":"data()"}},{"query":"\/\/li\/\/h2","pseudo":"","rules":{"content":"iteration(title)"}},{"query":"\/\/li\/\/span","pseudo":"","rules":{"content":"iteration(author)"}}]
