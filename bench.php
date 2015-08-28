@@ -7,8 +7,10 @@ require_once 'vendor/tombzombie/maphper/maphper/datasource/mysqladapter.php';
 
 //Firstly create some dummy data and a database table using Maphper
 //This is in a function so it can be reused. Maphper has an interal cache which I want to avoid
+$pdo = new \PDO('mysql:dbname=maphpertest;host=127.0.0.1', 'u', '');
+
 function getTopics() {
-	$pdo = new \PDO('mysql:dbname=maphpertest;host=127.0.0.1', 'u', '');
+	global $pdo;
 	$topics = new \Maphper\Maphper(new \Maphper\DataSource\Database($pdo, 'topics', 'id', ['editmode' => true]));
 	return $topics;
 }
@@ -73,7 +75,7 @@ echo benchmark(function() {
 	$data = ['topics' => $topics];
 	extract($data);
 	ob_start();
-	require_once 'template.php';
+	require 'template.php';
 	$output = ob_get_clean();
 });
 
